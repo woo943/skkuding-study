@@ -1,0 +1,60 @@
+body {
+    background-color : black;
+}
+
+#title {
+    display : flex;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid yellow;
+}
+
+#title h1 {
+    margin-left: 20%;
+}
+
+#title a {
+    color : yellow;
+    text-decoration: none;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    padding: 0 20% 0;
+}
+
+#selection {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.pokemon {
+    display: flex;
+    border: 1px solid yellow;
+    border-radius: 1rem;
+    padding: 1rem 0 1.5rem;
+}
+
+.pokemon img {
+    align-self: center;
+    margin: 0 1rem 0;
+    width: 4rem;
+    height: 4rem;
+}
+
+.pokemon.explain {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.pokemon h2 {
+    color : #eee;
+    margin: 0 0 2%;
+}
+
+.pokemon div {
+    color : #bbb;
+}
